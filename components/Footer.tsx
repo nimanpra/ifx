@@ -32,7 +32,7 @@ export default function Footer() {
       <div className="flex justify-between items-end border-t border-white/10 pt-6 z-10 relative">
         <p className="mono text-xs text-gray-500">© 2025 IFX.</p>
         <div className="flex gap-6 font-mono text-xs uppercase text-gray-400">
-          <a href="#" className="hover:text-white">Instagram</a>
+          <a href="https://www.instagram.com/ifx2009?igsh=d2Jwb3o5azlrdmtp&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-white">Instagram</a>
           <a href="#" className="hover:text-white">Vimeo</a>
         </div>
       </div>
