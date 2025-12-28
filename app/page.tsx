@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect } from 'react'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
@@ -15,7 +14,7 @@ export default function Home() {
     <main className="relative w-full min-h-screen">
       <div className="noise"></div>
       <div className="bg-grid"></div>
-      <img id="preview-img" src="" className="hover-reveal-img" alt="Preview" />
+      <div id="preview-img" className="hover-reveal-img" style={{ display: 'none' }}></div>
       <div id="flashlight" className="flashlight-mask"></div>
       
       <SmoothScroll />

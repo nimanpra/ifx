@@ -35,8 +35,10 @@ export default function Process() {
         step.addEventListener('mouseenter', () => {
           const targetId = step.getAttribute('data-bg')
           bgLayers.forEach(layer => layer.classList.remove('active'))
-          const targetBg = document.getElementById(targetId)
-          if (targetBg) targetBg.classList.add('active')
+          if (targetId) {
+            const targetBg = document.getElementById(targetId)
+            if (targetBg) targetBg.classList.add('active')
+          }
           const header = step.querySelector('.scramble-text') as HTMLElement
           if (header) scrambleText(header)
         })
